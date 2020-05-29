@@ -7,56 +7,18 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>机器学习之单因子、多因子线性回归实战【详细】 | 江小猿</title>
+  <title>如何入门人工智能？AI学习路线推荐(B站UP主的分享) | 江小猿</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="article">
-<meta property="og:title" content="机器学习之单因子、多因子线性回归实战【详细】">
-<meta property="og:url" content="http://yoursite.com/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%8D%95%E5%9B%A0%E5%AD%90%E3%80%81%E5%A4%9A%E5%9B%A0%E5%AD%90%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E5%AE%9E%E6%88%98%E3%80%90%E8%AF%A6%E7%BB%86%E3%80%91/index.html">
+<meta property="og:title" content="如何入门人工智能？AI学习路线推荐(B站UP主的分享)">
+<meta property="og:url" content="http://yoursite.com/2020/05/29/%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%9FAI%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E6%8E%A8%E8%8D%90-B%E7%AB%99UP%E4%B8%BB%E7%9A%84%E5%88%86%E4%BA%AB/index.html">
 <meta property="og:site_name" content="江小猿">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511192829384.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70#pic_center">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511210821978.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511210926481.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511220402877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511221147880.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511221640241.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511224129119.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511224541887.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511224656654.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511224906887.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/2020051122531680.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511225744804.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511225656164.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511225815729.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511225936480.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_7">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511230027305.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/2020051123010877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511230215436.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511230247404.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511230422316.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511232816567.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511232919877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511233359343.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511233459629.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511233614560.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511233653489.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511233741290.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511233824182.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511233920135.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511234033280.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511234127678.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511234202589.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511234231161.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511234313651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511234349341.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/2020051123444499.png">
-<meta property="og:image" content="https://img-blog.csdnimg.cn/20200511234528691.png">
-<meta property="article:published_time" content="2020-05-29T01:40:44.000Z">
-<meta property="article:modified_time" content="2020-05-29T01:50:32.421Z">
+<meta property="article:published_time" content="2020-05-29T03:12:32.000Z">
+<meta property="article:modified_time" content="2020-05-29T03:23:48.201Z">
 <meta property="article:author" content="Lonry Wu">
 <meta property="article:tag" content="人工智能">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20200511192829384.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70#pic_center">
   
     <link rel="alternative" href="/atom.xml" title="江小猿" type="application/atom+xml">
   
@@ -229,21 +191,21 @@
           </div>
           <div id="js-content" class="content-ll">
             
-<article id="post-机器学习之单因子、多因子线性回归实战【详细】" class="article article-type-post " itemscope itemprop="blogPost">
+<article id="post-如何入门人工智能？AI学习路线推荐-B站UP主的分享" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      机器学习之单因子、多因子线性回归实战【详细】
+      如何入门人工智能？AI学习路线推荐(B站UP主的分享)
     </h1>
   
 
 
         
-        <a href="/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%8D%95%E5%9B%A0%E5%AD%90%E3%80%81%E5%A4%9A%E5%9B%A0%E5%AD%90%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E5%AE%9E%E6%88%98%E3%80%90%E8%AF%A6%E7%BB%86%E3%80%91/" class="archive-article-date">
-  	<time datetime="2020-05-29T01:40:44.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-29</time>
+        <a href="/2020/05/29/%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%9FAI%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E6%8E%A8%E8%8D%90-B%E7%AB%99UP%E4%B8%BB%E7%9A%84%E5%88%86%E4%BA%AB/" class="archive-article-date">
+  	<time datetime="2020-05-29T03:12:32.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-29</time>
 </a>
 
         
@@ -251,107 +213,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><img src="https://img-blog.csdnimg.cn/20200511192829384.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70#pic_center" alt="单因子、多因子线性回归模型"></p>
-<a id="more"></a>
-<h2 id="1-线性回归实战准备"><a href="#1-线性回归实战准备" class="headerlink" title="1. 线性回归实战准备"></a>1. 线性回归实战准备</h2><h3 id="1-1-scikit-learn介绍"><a href="#1-1-scikit-learn介绍" class="headerlink" title="1.1 scikit-learn介绍"></a>1.1 scikit-learn介绍</h3><blockquote>
-<p>sklearn (scikit-learn) 是基于 Python 语言的机器学习工具，是专门针对机器学习应用发展起来的一款开源框架（算法库），可以实现数据预处理、分类、回归、降维、模型选择等常用的机器学习算法。</p>
-</blockquote>
-<ul>
-<li>简单高效的数据挖掘和数据分析工具</li>
-<li>可供大家在各种环境中重复使用</li>
-<li>建立在 NumPy ，SciPy 和 matplotlib 上</li>
-<li>开源，可商业使用 - BSD许可证</li>
-</ul>
-<p><a href="https://scikit-learn.org/stable/" target="_blank" rel="noopener">Scikit-learn</a>集成了很多机器学习中成熟的算法，容易安装和使用，官方文档也非常详细，但是需要注意的是它不支持Python之外的语言，不支持深度学习与强化学习。</p>
-<h3 id="1-2-sklearn求解线性回归"><a href="#1-2-sklearn求解线性回归" class="headerlink" title="1.2 sklearn求解线性回归"></a>1.2 sklearn求解线性回归</h3><p>对于线性回归问题的求解，主要目标是寻找到合适的a和b，创建线性回归模型：y = ax + b</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> LinearRegression</span><br><span class="line">lr_model = LinearRegression()</span><br><span class="line">lr_model.fit(x,y)</span><br></pre></td></tr></table></figure>
-<p>得到a、b的值</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a = lr_model.coef_</span><br><span class="line">b = lr_model.intercept_</span><br></pre></td></tr></table></figure>
-<p>对新数据做出预测</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">predictions = lr_model.predict(x_new)</span><br></pre></td></tr></table></figure>
-<h3 id="1-3-模型表现评估"><a href="#1-3-模型表现评估" class="headerlink" title="1.3 模型表现评估"></a>1.3 模型表现评估</h3><p><strong>y与y_predict的均方误差 (MSE)</strong>:</p>
-<p><img src="https://img-blog.csdnimg.cn/20200511210821978.png" alt="MSE"></p>
-<p>这里的MSE的值越小越好</p>
-<p><strong>R方值</strong>：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200511210926481.png" alt="R方值"></p>
-<p>R方值越接近1，模型的拟合效果越好</p>
-<p>代码的引入：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> mean_squared_error,r2_score</span><br><span class="line">MSE = mean_squared_error(y,y_predict)</span><br><span class="line">R2 = r2_score(y,y_predict)</span><br></pre></td></tr></table></figure>
-<p>画图对比y与y_predict，可视化模型表现 (集中度越高越接近直线分布效果越好)，代码如下：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> matplotlib <span class="keyword">import</span> pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.scatter(y,y_predict)</span><br></pre></td></tr></table></figure>
-<h3 id="1-4-matplotlib可视化模型"><a href="#1-4-matplotlib可视化模型" class="headerlink" title="1.4 matplotlib可视化模型"></a>1.4 matplotlib可视化模型</h3><p>我们可以使用matplotlib画出数据的散点图，将与多个因子有关的散点图同时展示出来，代码举例如下：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 画散点图</span></span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.scatter(x,y)</span><br><span class="line"><span class="comment"># 多张图同时展示</span></span><br><span class="line">fig1 = plt.subplot(<span class="number">211</span>)</span><br><span class="line">plt.scatter(x1,y1)</span><br><span class="line">fig2 = plt.subplot(<span class="number">212</span>)</span><br><span class="line">plt.scatter(x2,y2)</span><br></pre></td></tr></table></figure>
-<h2 id="2-单因子线性回归模型"><a href="#2-单因子线性回归模型" class="headerlink" title="2. 单因子线性回归模型"></a>2. 单因子线性回归模型</h2><h3 id="2-1-Jupyter-Notebook的使用"><a href="#2-1-Jupyter-Notebook的使用" class="headerlink" title="2.1 Jupyter Notebook的使用"></a>2.1 Jupyter Notebook的使用</h3><p><img src="https://img-blog.csdnimg.cn/20200511220402877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="anaconda"></p>
-<p>这里用我们之前创建的AI环境（图中箭头已标示出来），然后在这个环境下登录我们的Jupyter Notebook，登陆之后会自动打开我们设置的浏览器，如下图：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200511221147880.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="Google浏览器"></p>
-<p>创建一个Python文件，操作如下：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200511221640241.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="创建Python文件"></p>
-<h3 id="2-2-数据的加载"><a href="#2-2-数据的加载" class="headerlink" title="2.2 数据的加载"></a>2.2 数据的加载</h3><p>现在我们基于数据generated_data.csv，</p>
-<p><img src="https://img-blog.csdnimg.cn/20200511224129119.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="单因子模型数据"></p>
-<p>任务：建立线性回归模型，预测x=3.5对应的y值，评估模型表现</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># load the data</span></span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">data = pd.read_csv(<span class="string">'generated_data.csv'</span>)</span><br><span class="line">data.head()</span><br></pre></td></tr></table></figure>
-<p>运行结果（以下省略该提示）：</p>
-<p><img src="https://img-blog.csdnimg.cn/20200511224541887.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(type(data),data.shape)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511224656654.png" alt=""></p>
-<h3 id="2-3-数据的赋值"><a href="#2-3-数据的赋值" class="headerlink" title="2.3 数据的赋值"></a>2.3 数据的赋值</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># data赋值</span></span><br><span class="line">x = data.loc[:,<span class="string">'x'</span>]</span><br><span class="line">y = data.loc[:,<span class="string">'y'</span>]</span><br><span class="line">print(x,y)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511224906887.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt=""></p>
-<h3 id="2-4-数据的可视化"><a href="#2-4-数据的可视化" class="headerlink" title="2.4 数据的可视化"></a>2.4 数据的可视化</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># visual the data</span></span><br><span class="line"><span class="keyword">from</span> matplotlib <span class="keyword">import</span> pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="comment"># figsize=(x,y)设置图的尺寸</span></span><br><span class="line"><span class="comment"># plt.figure(figsize=(20,20))</span></span><br><span class="line">plt.figure()</span><br><span class="line">plt.scatter(x,y)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/2020051122531680.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt=""></p>
-<h3 id="2-5-单因子模型的建立"><a href="#2-5-单因子模型的建立" class="headerlink" title="2.5 单因子模型的建立"></a>2.5 单因子模型的建立</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># set up a linear regression model</span></span><br><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> LinearRegression</span><br><span class="line">lr_model = LinearRegression()</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">x = np.array(x)</span><br><span class="line">x = x.reshape(<span class="number">-1</span>,<span class="number">1</span>)</span><br><span class="line">y = np.array(y)</span><br><span class="line">y = y.reshape(<span class="number">-1</span>,<span class="number">1</span>)</span><br><span class="line">print(type(x),x.shape,type(y),y.shape)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511225744804.png" alt=""></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(type(x),x.shape)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511225656164.png" alt=""></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lr_model.fit(x,y)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511225815729.png" alt=""></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">y_predict = lr_model.predict(x)</span><br><span class="line">print(y_predict)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511225936480.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_7" alt=""></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">y_3 = lr_model.predict([[<span class="number">3.5</span>]])</span><br><span class="line">print(y_3)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511230027305.png" alt=""></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(y)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/2020051123010877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt=""></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># a\b打印</span></span><br><span class="line">a = lr_model.coef_</span><br><span class="line">b = lr_model.intercept_</span><br><span class="line">print(a,b)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511230215436.png" alt=""></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> mean_squared_error,r2_score</span><br><span class="line">MSE = mean_squared_error(y,y_predict)</span><br><span class="line">R2 = r2_score(y,y_predict)</span><br><span class="line">print(MSE,R2)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511230247404.png" alt=""></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">plt.figure()</span><br><span class="line">plt.plot(y,y_predict)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511230422316.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt=""></p>
-<p>可以看到拟合的效果非常好，但是现实生活中这种理想的数据往往是不存在的，因为现实生活中数据量往往是巨大的，且影响y值的因素有很多，往往受到多因子的影响。这个简单的单因子模型只是为了让我们能更好地了解数据的加载、数据的处理、模型的建立、评估等一系列流程，下面的多因子线性回归模型才是我们要理解和掌握的重点。</p>
-<h2 id="3-多因子线性回归模型"><a href="#3-多因子线性回归模型" class="headerlink" title="3. 多因子线性回归模型"></a>3. 多因子线性回归模型</h2><h3 id="3-1-数据的加载"><a href="#3-1-数据的加载" class="headerlink" title="3.1 数据的加载"></a>3.1 数据的加载</h3><p>现在我们基于房价数据usa_housing_price.csv进行多因子线性回归模型的建立，首先加载数据</p>
-<p><img src="https://img-blog.csdnimg.cn/20200511232816567.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="数据的一部分"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 数据加载</span></span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">data = pd.read_csv(<span class="string">'usa_housing_price.csv'</span>)</span><br><span class="line">data.head()</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511232919877.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt=""></p>
-<h3 id="3-2-单因子数据可视化集"><a href="#3-2-单因子数据可视化集" class="headerlink" title="3.2 单因子数据可视化集"></a>3.2 单因子数据可视化集</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 单因子数据可视化</span></span><br><span class="line">%matplotlib inline</span><br><span class="line"><span class="keyword">from</span> matplotlib <span class="keyword">import</span> pyplot <span class="keyword">as</span> plt</span><br><span class="line">fig = plt.figure(figsize=(<span class="number">10</span>,<span class="number">10</span>))</span><br><span class="line">fig1 = plt.subplot(<span class="number">231</span>)</span><br><span class="line">plt.scatter(data.loc[:,<span class="string">'Avg. Area Income'</span>],data.loc[:,<span class="string">'Price'</span>])</span><br><span class="line">plt.title(<span class="string">'Price VS Income'</span>)</span><br><span class="line"></span><br><span class="line">fig2 = plt.subplot(<span class="number">232</span>)</span><br><span class="line">plt.scatter(data.loc[:,<span class="string">'Avg. Area House Age'</span>],data.loc[:,<span class="string">'Price'</span>])</span><br><span class="line">plt.title(<span class="string">'Price VS House Age'</span>)</span><br><span class="line"></span><br><span class="line">fig3 = plt.subplot(<span class="number">233</span>)</span><br><span class="line">plt.scatter(data.loc[:,<span class="string">'Avg. Area Number of Rooms'</span>],data.loc[:,<span class="string">'Price'</span>])</span><br><span class="line">plt.title(<span class="string">'Price VS Number of Rooms'</span>)</span><br><span class="line"></span><br><span class="line">fig4 = plt.subplot(<span class="number">234</span>)</span><br><span class="line">plt.scatter(data.loc[:,<span class="string">'Area Population'</span>],data.loc[:,<span class="string">'Price'</span>])</span><br><span class="line">plt.title(<span class="string">'Price VS Area Population'</span>)</span><br><span class="line"></span><br><span class="line">fig5 = plt.subplot(<span class="number">235</span>)</span><br><span class="line">plt.scatter(data.loc[:,<span class="string">'size'</span>],data.loc[:,<span class="string">'Price'</span>])</span><br><span class="line">plt.title(<span class="string">'Price VS size'</span>)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511233359343.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># define x and y</span></span><br><span class="line">x = data.loc[:,<span class="string">'size'</span>]</span><br><span class="line">y = data.loc[:,<span class="string">'Price'</span>]</span><br><span class="line">y.head()</span><br><span class="line">x = np.array(x).reshape(<span class="number">-1</span>,<span class="number">1</span>)</span><br><span class="line">print(x,x.shape)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511233459629.png" alt=""></p>
-<h3 id="3-3-建立单因子模型"><a href="#3-3-建立单因子模型" class="headerlink" title="3.3 建立单因子模型"></a>3.3 建立单因子模型</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 建立单因子模型</span></span><br><span class="line"><span class="keyword">from</span> sklearn.linear_model <span class="keyword">import</span> LinearRegression</span><br><span class="line">LR1 = LinearRegression()</span><br><span class="line"><span class="comment"># 训练模型</span></span><br><span class="line">LR1.fit(x,y)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511233614560.png" alt="在这里插入图片描述"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 计算单因子site对应的的price</span></span><br><span class="line">y_predict_1 = LR1.predict(x)</span><br><span class="line">print(y_predict_1)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511233653489.png" alt="在这里插入图片描述"></p>
-<h3 id="3-4-评估单因子模型表现"><a href="#3-4-评估单因子模型表现" class="headerlink" title="3.4 评估单因子模型表现"></a>3.4 评估单因子模型表现</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 评估模型表现</span></span><br><span class="line"><span class="keyword">from</span> sklearn.metrics <span class="keyword">import</span> mean_squared_error,r2_score</span><br><span class="line">mean_squared_error_1 =  mean_squared_error(y,y_predict_1)</span><br><span class="line">r2_score_1 = r2_score(y,y_predict_1)</span><br><span class="line">print(mean_squared_error_1,r2_score_1)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511233741290.png" alt="在这里插入图片描述"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">fig6 = plt.figure(figsize=(<span class="number">8</span>,<span class="number">5</span>))</span><br><span class="line">plt.scatter(x,y)</span><br><span class="line">plt.plot(x,y_predict_1,<span class="string">'r'</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511233824182.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="3-5-建立多因子模型"><a href="#3-5-建立多因子模型" class="headerlink" title="3.5 建立多因子模型"></a>3.5 建立多因子模型</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># define x_multi</span></span><br><span class="line">x_multi = data.drop([<span class="string">'Price'</span>],axis=<span class="number">1</span>)</span><br><span class="line">x_multi</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511233920135.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 多因子线性回归结构模型</span></span><br><span class="line">LR_multi = LinearRegression()</span><br><span class="line"><span class="comment"># 训练模型</span></span><br><span class="line">LR_multi.fit(x_multi,y)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511234033280.png" alt="在这里插入图片描述"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 模型预测</span></span><br><span class="line">y_predict_multi = LR_multi.predict(x_multi)</span><br><span class="line">print(y_predict_multi)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511234127678.png" alt="在这里插入图片描述"></p>
-<h3 id="3-6-评估多因子模型表现"><a href="#3-6-评估多因子模型表现" class="headerlink" title="3.6 评估多因子模型表现"></a>3.6 评估多因子模型表现</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 评估模型表现</span></span><br><span class="line">mean_squared_error_multi =  mean_squared_error(y,y_predict_multi)</span><br><span class="line">r2_score_multi = r2_score(y,y_predict_multi)</span><br><span class="line">print(mean_squared_error_multi,r2_score_multi)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511234202589.png" alt="在这里插入图片描述"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(mean_squared_error_1)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511234231161.png" alt="在这里插入图片描述"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">fig7 = plt.figure(figsize=(<span class="number">8</span>,<span class="number">5</span>))</span><br><span class="line">plt.scatter(y,y_predict_multi)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511234313651.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">fig8 = plt.figure(figsize=(<span class="number">8</span>,<span class="number">5</span>))</span><br><span class="line">plt.scatter(y,y_predict_1)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511234349341.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
-<h3 id="3-7-测试数据预测房价"><a href="#3-7-测试数据预测房价" class="headerlink" title="3.7 测试数据预测房价"></a>3.7 测试数据预测房价</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 用测试数据预测房价</span></span><br><span class="line">x_test = [<span class="number">86295</span>,<span class="number">4.372543</span>,<span class="number">8.011898</span>,<span class="number">47560.78</span>,<span class="number">231.0471</span>]</span><br><span class="line">print(type(x_test))</span><br><span class="line">x_test = np.array(x_test).reshape(<span class="number">1</span>,<span class="number">-1</span>)</span><br><span class="line">print(x_test)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/2020051123444499.png" alt="在这里插入图片描述"></p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">y_test_predict = LR_multi.predict(x_test)</span><br><span class="line">print(y_test_predict)</span><br></pre></td></tr></table></figure>
-<p><img src="https://img-blog.csdnimg.cn/20200511234528691.png" alt="在这里插入图片描述"></p>
-<h2 id="4-总结"><a href="#4-总结" class="headerlink" title="4. 总结"></a>4. 总结</h2><p>可以看出，相较于单因子模型，多因子模型达到了更好的预测效果，R方值为0.91，MSE也有了将近10倍的下降，很好地实现了预测结果的可视化，我们可以直观对比预测价格与实际价格的差异。</p>
+        <iframe height = 600 width = 700 src="//player.bilibili.com/player.html?aid=837910666&bvid=BV16g4y1z773&cid=184898157&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
       
 
@@ -452,7 +314,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150×150&data=http://lonrywu.github.io/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%8D%95%E5%9B%A0%E5%AD%90%E3%80%81%E5%A4%9A%E5%9B%A0%E5%AD%90%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E5%AE%9E%E6%88%98%E3%80%90%E8%AF%A6%E7%BB%86%E3%80%91/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150×150&data=http://lonrywu.github.io/2020/05/29/%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%9FAI%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E6%8E%A8%E8%8D%90-B%E7%AB%99UP%E4%B8%BB%E7%9A%84%E5%88%86%E4%BA%AB/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -466,18 +328,9 @@
   
 <nav id="article-nav">
   
-    <a href="/2020/05/29/%E5%A6%82%E4%BD%95%E5%85%A5%E9%97%A8%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%9FAI%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%E6%8E%A8%E8%8D%90-B%E7%AB%99UP%E4%B8%BB%E7%9A%84%E5%88%86%E4%BA%AB/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          如何入门人工智能？AI学习路线推荐(B站UP主的分享)
-        
-      </div>
-    </a>
   
-  
-    <a href="/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">机器学习介绍及线性回归技术总结</div>
+    <a href="/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%8D%95%E5%9B%A0%E5%AD%90%E3%80%81%E5%A4%9A%E5%9B%A0%E5%AD%90%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E5%AE%9E%E6%88%98%E3%80%90%E8%AF%A6%E7%BB%86%E3%80%91/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">机器学习之单因子、多因子线性回归实战【详细】</div>
       <i class="icon-circle-right"></i>
     </a>
   
@@ -504,7 +357,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-线性回归实战准备"><span class="toc-number">1.</span> <span class="toc-text">1. 线性回归实战准备</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-scikit-learn介绍"><span class="toc-number">1.1.</span> <span class="toc-text">1.1 scikit-learn介绍</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-sklearn求解线性回归"><span class="toc-number">1.2.</span> <span class="toc-text">1.2 sklearn求解线性回归</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-模型表现评估"><span class="toc-number">1.3.</span> <span class="toc-text">1.3 模型表现评估</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-4-matplotlib可视化模型"><span class="toc-number">1.4.</span> <span class="toc-text">1.4 matplotlib可视化模型</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-单因子线性回归模型"><span class="toc-number">2.</span> <span class="toc-text">2. 单因子线性回归模型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-Jupyter-Notebook的使用"><span class="toc-number">2.1.</span> <span class="toc-text">2.1 Jupyter Notebook的使用</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-数据的加载"><span class="toc-number">2.2.</span> <span class="toc-text">2.2 数据的加载</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-数据的赋值"><span class="toc-number">2.3.</span> <span class="toc-text">2.3 数据的赋值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4-数据的可视化"><span class="toc-number">2.4.</span> <span class="toc-text">2.4 数据的可视化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-5-单因子模型的建立"><span class="toc-number">2.5.</span> <span class="toc-text">2.5 单因子模型的建立</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-多因子线性回归模型"><span class="toc-number">3.</span> <span class="toc-text">3. 多因子线性回归模型</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#3-1-数据的加载"><span class="toc-number">3.1.</span> <span class="toc-text">3.1 数据的加载</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-2-单因子数据可视化集"><span class="toc-number">3.2.</span> <span class="toc-text">3.2 单因子数据可视化集</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-3-建立单因子模型"><span class="toc-number">3.3.</span> <span class="toc-text">3.3 建立单因子模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-4-评估单因子模型表现"><span class="toc-number">3.4.</span> <span class="toc-text">3.4 评估单因子模型表现</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-5-建立多因子模型"><span class="toc-number">3.5.</span> <span class="toc-text">3.5 建立多因子模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-6-评估多因子模型表现"><span class="toc-number">3.6.</span> <span class="toc-text">3.6 评估多因子模型表现</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-7-测试数据预测房价"><span class="toc-number">3.7.</span> <span class="toc-text">3.7 测试数据预测房价</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-总结"><span class="toc-number">4.</span> <span class="toc-text">4. 总结</span></a></li></ol>
+                    目录，不存在的…
                     </div>
                 </span>
             </div>
