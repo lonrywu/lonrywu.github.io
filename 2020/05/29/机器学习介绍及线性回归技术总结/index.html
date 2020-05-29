@@ -7,15 +7,36 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>江小猿</title>
+  <title>机器学习介绍及线性回归技术总结 | 江小猿</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="江小猿">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta property="og:type" content="article">
+<meta property="og:title" content="机器学习介绍及线性回归技术总结">
+<meta property="og:url" content="http://yoursite.com/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/index.html">
 <meta property="og:site_name" content="江小猿">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200510114411958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200510125227641.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200510140755644.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200510140531504.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200510142413694.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2020051014330117.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200510144118735.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200510151852153.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200510160002481.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2020051016014839.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200510161216210.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2020051016243128.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200510163124181.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200510164431224.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200510165025924.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2020051016591652.png">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20200510171057504.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70">
+<meta property="article:published_time" content="2020-05-29T01:28:10.000Z">
+<meta property="article:modified_time" content="2020-05-29T01:50:27.138Z">
 <meta property="article:author" content="Lonry Wu">
+<meta property="article:tag" content="人工智能">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20200510114411958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70#pic_center">
   
     <link rel="alternative" href="/atom.xml" title="江小猿" type="application/atom+xml">
   
@@ -188,94 +209,14 @@
           </div>
           <div id="js-content" class="content-ll">
             
-  
-    <article id="post-机器学习之单因子、多因子线性回归实战【详细】" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+<article id="post-机器学习介绍及线性回归技术总结" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%8D%95%E5%9B%A0%E5%AD%90%E3%80%81%E5%A4%9A%E5%9B%A0%E5%AD%90%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E5%AE%9E%E6%88%98%E3%80%90%E8%AF%A6%E7%BB%86%E3%80%91/">机器学习之单因子、多因子线性回归实战【详细】</a>
-    </h1>
-  
-
-
-        
-        <a href="/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%8D%95%E5%9B%A0%E5%AD%90%E3%80%81%E5%A4%9A%E5%9B%A0%E5%AD%90%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E5%AE%9E%E6%88%98%E3%80%90%E8%AF%A6%E7%BB%86%E3%80%91/" class="archive-article-date">
-  	<time datetime="2020-05-29T01:40:44.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-05-29</time>
-</a>
-
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p><img src="https://img-blog.csdnimg.cn/20200511192829384.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70#pic_center" alt="单因子、多因子线性回归模型"></p>
-        
-          <a class="article-more-a" href="/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%8D%95%E5%9B%A0%E5%AD%90%E3%80%81%E5%A4%9A%E5%9B%A0%E5%AD%90%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E5%AE%9E%E6%88%98%E3%80%90%E8%AF%A6%E7%BB%86%E3%80%91/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">人工智能</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%8D%95%E5%9B%A0%E5%AD%90%E3%80%81%E5%A4%9A%E5%9B%A0%E5%AD%90%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E5%AE%9E%E6%88%98%E3%80%90%E8%AF%A6%E7%BB%86%E3%80%91/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-  
-    <article id="post-机器学习介绍及线性回归技术总结" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/">机器学习介绍及线性回归技术总结</a>
+    <h1 class="article-title" itemprop="name">
+      机器学习介绍及线性回归技术总结
     </h1>
   
 
@@ -291,94 +232,121 @@
     <div class="article-entry" itemprop="articleBody">
       
         <p><img src="https://img-blog.csdnimg.cn/20200510114411958.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70#pic_center" alt="机器学习之线性回归"></p>
-        
-          <a class="article-more-a" href="/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">人工智能</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-  
-    <article id="post-预善其事，先利其器——AI开发工具介绍及其配置" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/29/%E9%A2%84%E5%96%84%E5%85%B6%E4%BA%8B%EF%BC%8C%E5%85%88%E5%88%A9%E5%85%B6%E5%99%A8%E2%80%94%E2%80%94AI%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%85%B6%E9%85%8D%E7%BD%AE/">预善其事，先利其器——AI开发工具介绍及其配置</a>
-    </h1>
-  
-
-
-        
-        <a href="/2020/04/29/%E9%A2%84%E5%96%84%E5%85%B6%E4%BA%8B%EF%BC%8C%E5%85%88%E5%88%A9%E5%85%B6%E5%99%A8%E2%80%94%E2%80%94AI%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%85%B6%E9%85%8D%E7%BD%AE/" class="archive-article-date">
-  	<time datetime="2020-04-29T14:05:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-29</time>
-</a>
-
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="1-AI开发环境推荐"><a href="#1-AI开发环境推荐" class="headerlink" title="1. AI开发环境推荐"></a>1. AI开发环境推荐</h1><ul>
-<li><a href="https://www.python.org/" target="_blank" rel="noopener">Python</a></li>
-<li><a href="https://sandbox.anaconda.com" target="_blank" rel="noopener">Anaconda</a></li>
-<li><a href="https://jupyter.org/" target="_blank" rel="noopener">Jupyter Notebook</a></li>
+<a id="more"></a>
+<h2 id="什么是机器学习？"><a href="#什么是机器学习？" class="headerlink" title="什么是机器学习？"></a>什么是机器学习？</h2><p>机器学习是一种实现人工智能的方法，从数据中寻找规律、建立关系，根据建立的关系去解决问题，从数据中进行经验学习，实现自我优化与升级。<br>维基百科给出的定义：</p>
+<blockquote>
+<ul>
+<li>机器学习是一门人工智能的科学，该领域的主要研究对象是人工智能，特别是如何在经验学习中改善具体算法的性能</li>
+<li>机器学习是对能通过经验自动改进的计算机算法的研究</li>
+<li>机器学习是用数据或以往的经验，以此优化计算机程序的性能标准</li>
 </ul>
-        
-          <a class="article-more-a" href="/2020/04/29/%E9%A2%84%E5%96%84%E5%85%B6%E4%BA%8B%EF%BC%8C%E5%85%88%E5%88%A9%E5%85%B6%E5%99%A8%E2%80%94%E2%80%94AI%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%85%B6%E9%85%8D%E7%BD%AE/#more">more >></a>
-        
+</blockquote>
+<p> 一种经常引用的英文定义是：A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.</p>
+<h2 id="机器学习的应用场景"><a href="#机器学习的应用场景" class="headerlink" title="机器学习的应用场景"></a>机器学习的应用场景</h2><ul>
+<li>数据挖掘</li>
+<li>计算机视觉</li>
+<li>自然语言处理</li>
+<li>证券分析</li>
+<li>股票涨跌预测</li>
+<li>电影票房预测</li>
+<li>医学诊断</li>
+<li>机器人</li>
+<li>DNA测序</li>
+<li>……</li>
+</ul>
+<p>与人工智能比较，我们可以看到人工智能的主要应用场景也都是机器学习的应用场景，这就印证了之前所说，<strong>机器学习是实现人工智能的主流方法</strong>。</p>
+<h2 id="实现机器学习的基本框架"><a href="#实现机器学习的基本框架" class="headerlink" title="实现机器学习的基本框架"></a>实现机器学习的基本框架</h2><p><img src="https://img-blog.csdnimg.cn/20200510125227641.png" alt="实现机器学习的基本框架"></p>
+<p>将训练数据输入到计算机，计算机自动求解数据关系，在新的数据上做出预测或给出建议。</p>
+<h2 id="机器学习的类别"><a href="#机器学习的类别" class="headerlink" title="机器学习的类别"></a>机器学习的类别</h2><h3 id="监督式学习（Supervised-Learning）——训练数据包括正确的结果（标签-label）"><a href="#监督式学习（Supervised-Learning）——训练数据包括正确的结果（标签-label）" class="headerlink" title="监督式学习（Supervised Learning）——训练数据包括正确的结果（标签-label）"></a>监督式学习（Supervised Learning）——训练数据包括正确的结果（标签-label）</h3><p><img src="https://img-blog.csdnimg.cn/20200510140755644.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="监督学习"></p>
+<p>对于监督式学习，我们在一开始给出的数据中就已经告诉计算机正确的结果标签：红色的圆对应类别1，蓝色的叉对应类别2，绿色的星对应类别3。根据该结果，监督式学习就会自动地找出数据的边界（图中虚线部分），以后计算机再得到新的数据，不知道其是圆，叉或者星时，就会根据其所在的位置，自动将其划分为对应的类别。</p>
+<p><strong>监督式学习包含</strong></p>
+<ul>
+<li>线性回归</li>
+<li>逻辑回归</li>
+<li>决策树</li>
+<li>神经网络、卷积神经网络、循环神经网络</li>
+<li>……</li>
+</ul>
+<h3 id="无监督式学习（Unsupervised-Learning）——训练数据不包括正确的结果"><a href="#无监督式学习（Unsupervised-Learning）——训练数据不包括正确的结果" class="headerlink" title="无监督式学习（Unsupervised Learning）——训练数据不包括正确的结果"></a>无监督式学习（Unsupervised Learning）——训练数据不包括正确的结果</h3><p><img src="https://img-blog.csdnimg.cn/20200510140531504.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="无监督式学习"></p>
+<p>对于无监督式学习，我们在一开始给出的数据中没有告诉计算机正确的结果标签，只是要求计算机将数据分成3类，这样处理数据时就找不出数据的边界，但是却能根据要求，将比较接近的数据划分为一类，最终将所有数据分为3类。当得到新的数据后，将根据其与3类数据的接近程度自动划分为其中一种。</p>
+<p><strong>无监督式学习包含</strong></p>
+<ul>
+<li>聚类算法</li>
+</ul>
+<h3 id="半监督式学习（Semi-supervised-Learning）——训练数据包括少量正确的结果"><a href="#半监督式学习（Semi-supervised-Learning）——训练数据包括少量正确的结果" class="headerlink" title="半监督式学习（Semi-supervised Learning）——训练数据包括少量正确的结果"></a>半监督式学习（Semi-supervised Learning）——训练数据包括少量正确的结果</h3><p><img src="https://img-blog.csdnimg.cn/20200510142413694.png" alt="半监督式学习"></p>
+<p>对于半监督学习，给出的标签数据相对较少一些，但也能根据这些标签数据找到数据的边界，将新数据划分为其中一种。</p>
+<h3 id="强化学习（Reinforcement-Learning）——根据每次结果收获的奖惩进行学习，实现优化"><a href="#强化学习（Reinforcement-Learning）——根据每次结果收获的奖惩进行学习，实现优化" class="headerlink" title="强化学习（Reinforcement Learning）——根据每次结果收获的奖惩进行学习，实现优化"></a>强化学习（Reinforcement Learning）——根据每次结果收获的奖惩进行学习，实现优化</h3><p><img src="https://img-blog.csdnimg.cn/2020051014330117.png" alt="强化学习"></p>
+<p>举个例子，假设有个行走的机器人，它的前面有一面墙，直走的话会撞上去，机器人尝试不同的走法，如上图的行走策略，第一种通过了这面墙为GOOD，第二种撞上了这面墙为BAD</p>
+<p><img src="https://img-blog.csdnimg.cn/20200510144118735.png" alt="强化学习"></p>
+<p>编程时设立奖惩规则，通过+3分，失败-3分，规定机器人行走优化条件是分数越高越好，让程序自动寻找获得高分的方法。</p>
+<h3 id="学习方式的应用"><a href="#学习方式的应用" class="headerlink" title="学习方式的应用"></a>学习方式的应用</h3><p><img src="https://img-blog.csdnimg.cn/20200510151852153.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="三者的应用"></p>
+<h2 id="什么是回归分析-Regression-Analysis-？"><a href="#什么是回归分析-Regression-Analysis-？" class="headerlink" title="什么是回归分析 (Regression Analysis) ？"></a>什么是回归分析 (Regression Analysis) ？</h2><blockquote>
+<p>回归分析是根据数据，确定两种或两种以上变量间相互依赖的定量关系</p>
+</blockquote>
+<p>函数表达式：<br>     <img src="https://img-blog.csdnimg.cn/20200510160002481.png" alt="在这里插入图片描述">  </p>
+<p>回归分析的种类：</p>
+<p><img src="https://img-blog.csdnimg.cn/2020051016014839.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>下边将具体讲解线性回归技术</p>
+<h2 id="线性回归介绍"><a href="#线性回归介绍" class="headerlink" title="线性回归介绍"></a>线性回归介绍</h2><blockquote>
+<p>回归分析中，变量与因变量存在线性关系</p>
+</blockquote>
+<p>函数表达式：y = ax + b</p>
+<h2 id="线性回归问题求解"><a href="#线性回归问题求解" class="headerlink" title="线性回归问题求解"></a>线性回归问题求解</h2><p><img src="https://img-blog.csdnimg.cn/20200510161216210.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>建立模型的步骤：</p>
+<ol>
+<li>确定P、A间的定量关系</li>
+<li>根据关系预测合理价格</li>
+<li>做出判断</li>
+</ol>
+<p>将表中数据用散点图表示出来</p>
+<p><img src="https://img-blog.csdnimg.cn/2020051016243128.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt="数据散点图"></p>
+<p>具有线性关系，建立线性模型：y = ax + b<br>现在我们只需要找到合适的a和b，就能解决问题<br>途径：假设x为变量，y为对应结果，y’为模型输出结果，目标变为：y’尽可能接近y，如下图（m为样本数）</p>
+<p><img src="https://img-blog.csdnimg.cn/20200510163124181.png" alt=""></p>
+<p>因为后边要求导，为了约掉求导后得到的2m，这里除以2m，变为：</p>
+<p><img src="https://img-blog.csdnimg.cn/20200510164431224.png" alt=""></p>
+<p>即为该模型的损失函数J，其值越小越好</p>
+<p><img src="https://img-blog.csdnimg.cn/20200510165025924.png" alt=""></p>
+<p>可以看出J的值是与a、b有关的，那如何找到这个极小值呢？</p>
+<h2 id="梯度下降法求解线性回归"><a href="#梯度下降法求解线性回归" class="headerlink" title="梯度下降法求解线性回归"></a>梯度下降法求解线性回归</h2><p>可以用<strong>梯度下降法</strong>进行求解，梯度下降法是寻找极小值的一种方法，通过向函数上当前点对应梯度（或者是近似梯度）的规定步长距离点进行迭代搜索，直到在极小点收敛。</p>
+<p><img src="https://img-blog.csdnimg.cn/2020051016591652.png" alt=""></p>
+<p>应用此方法求损失函数J的极小值时，首先创建临时变量temp_a和temp_b，然后重复计算直到收敛，此时a与b的值就是要寻求的值</p>
+<p><img src="https://img-blog.csdnimg.cn/20200510171057504.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NTA5MjIxNQ==,size_16,color_FFFFFF,t_70" alt=""></p>
+<p>由此得到了线性模型的表达式：y = ax + b</p>
+<p>将单因子变量x的值代入就能得到对应的因变量预测值，最后对预测结果做出判断。</p>
+
       
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/alipay.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/wechat_pay.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
       
     </div>
     <div class="article-info article-info-index">
@@ -398,16 +366,84 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/04/29/%E9%A2%84%E5%96%84%E5%85%B6%E4%BA%8B%EF%BC%8C%E5%85%88%E5%88%A9%E5%85%B6%E5%99%A8%E2%80%94%E2%80%94AI%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%85%B6%E9%85%8D%E7%BD%AE/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150×150&data=http://lonrywu.github.io/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%BB%8B%E7%BB%8D%E5%8F%8A%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2020/05/29/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8B%E5%8D%95%E5%9B%A0%E5%AD%90%E3%80%81%E5%A4%9A%E5%9B%A0%E5%AD%90%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92%E5%AE%9E%E6%88%98%E3%80%90%E8%AF%A6%E7%BB%86%E3%80%91/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          机器学习之单因子、多因子线性回归实战【详细】
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/04/29/%E9%A2%84%E5%96%84%E5%85%B6%E4%BA%8B%EF%BC%8C%E5%85%88%E5%88%A9%E5%85%B6%E5%99%A8%E2%80%94%E2%80%94AI%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D%E5%8F%8A%E5%85%B6%E9%85%8D%E7%BD%AE/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">预善其事，先利其器——AI开发工具介绍及其配置</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -422,96 +458,34 @@
         </div>
         
         
-    </div>
-</aside>
-
-
-
-
-
-  
-    <article id="post-人工智能（Artificial-Intelligence）浅谈，填补你的人工智能空白" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/04/29/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%88Artificial-Intelligence%EF%BC%89%E6%B5%85%E8%B0%88%EF%BC%8C%E5%A1%AB%E8%A1%A5%E4%BD%A0%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%A9%BA%E7%99%BD/">人工智能（Artificial Intelligence）浅谈，填补你的人工智能空白</a>
-    </h1>
-  
-
-
-        
-        <a href="/2020/04/29/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%88Artificial-Intelligence%EF%BC%89%E6%B5%85%E8%B0%88%EF%BC%8C%E5%A1%AB%E8%A1%A5%E4%BD%A0%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%A9%BA%E7%99%BD/" class="archive-article-date">
-  	<time datetime="2020-04-29T11:42:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-04-29</time>
-</a>
-
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="1-什么是人工智能（Artificial-Intelligence）？"><a href="#1-什么是人工智能（Artificial-Intelligence）？" class="headerlink" title="1. 什么是人工智能（Artificial Intelligence）？"></a>1. 什么是人工智能（Artificial Intelligence）？</h1><h2 id="1-1-定义之前，我们先看下面列举的例子："><a href="#1-1-定义之前，我们先看下面列举的例子：" class="headerlink" title="1.1 定义之前，我们先看下面列举的例子："></a>1.1 定义之前，我们先看下面列举的例子：</h2><p>车牌识别，人脸识别，自动驾驶，</p>
-<p>情感分类，机器翻译，人机互动，</p>
-<p>智能机器人，AlphaGo，<br>……</p>
-        
-          <a class="article-more-a" href="/2020/04/29/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%88Artificial-Intelligence%EF%BC%89%E6%B5%85%E8%B0%88%EF%BC%8C%E5%A1%AB%E8%A1%A5%E4%BD%A0%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%A9%BA%E7%99%BD/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">人工智能</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/04/29/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%EF%BC%88Artificial-Intelligence%EF%BC%89%E6%B5%85%E8%B0%88%EF%BC%8C%E5%A1%AB%E8%A1%A5%E4%BD%A0%E7%9A%84%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E7%A9%BA%E7%99%BD/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#什么是机器学习？"><span class="toc-number">1.</span> <span class="toc-text">什么是机器学习？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#机器学习的应用场景"><span class="toc-number">2.</span> <span class="toc-text">机器学习的应用场景</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#实现机器学习的基本框架"><span class="toc-number">3.</span> <span class="toc-text">实现机器学习的基本框架</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#机器学习的类别"><span class="toc-number">4.</span> <span class="toc-text">机器学习的类别</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#监督式学习（Supervised-Learning）——训练数据包括正确的结果（标签-label）"><span class="toc-number">4.1.</span> <span class="toc-text">监督式学习（Supervised Learning）——训练数据包括正确的结果（标签-label）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#无监督式学习（Unsupervised-Learning）——训练数据不包括正确的结果"><span class="toc-number">4.2.</span> <span class="toc-text">无监督式学习（Unsupervised Learning）——训练数据不包括正确的结果</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#半监督式学习（Semi-supervised-Learning）——训练数据包括少量正确的结果"><span class="toc-number">4.3.</span> <span class="toc-text">半监督式学习（Semi-supervised Learning）——训练数据包括少量正确的结果</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#强化学习（Reinforcement-Learning）——根据每次结果收获的奖惩进行学习，实现优化"><span class="toc-number">4.4.</span> <span class="toc-text">强化学习（Reinforcement Learning）——根据每次结果收获的奖惩进行学习，实现优化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#学习方式的应用"><span class="toc-number">4.5.</span> <span class="toc-text">学习方式的应用</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#什么是回归分析-Regression-Analysis-？"><span class="toc-number">5.</span> <span class="toc-text">什么是回归分析 (Regression Analysis) ？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#线性回归介绍"><span class="toc-number">6.</span> <span class="toc-text">线性回归介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#线性回归问题求解"><span class="toc-number">7.</span> <span class="toc-text">线性回归问题求解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#梯度下降法求解线性回归"><span class="toc-number">8.</span> <span class="toc-text">梯度下降法求解线性回归</span></a></li></ol>
+                    </div>
+                </span>
             </div>
         </div>
         
-        
     </div>
 </aside>
 
 
 
-
-
   
   
+  
+
+  
+
+  
+
+  
+
 
 
           </div>
@@ -542,8 +516,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
